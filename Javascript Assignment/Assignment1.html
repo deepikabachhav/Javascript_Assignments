@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p>TEMPERATURE CONVERTER.</p>
+    Enter Temperature in Fahrenheit scale: <input type="text"  id="outputCelcius" ><br><br>
+    <button type ="button" onclick=" temperatureConverter()">Show Result</button><br><br>
+   
+      <p id="change" ></p>    
+  <script>
+   function temperatureConverter() {
+   var x;
+   x= document.getElementById("outputCelcius").value; 
+   if(isNaN(x)){
+       alert("please enter number only");
+   }
+   else{
+       x=(x-32)* (5/9);
+
+         document.getElementById("change").innerHTML= x;
+        
+   }
+   }
+  
+    </script>
+</body>
+</html>

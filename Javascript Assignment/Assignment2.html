@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment2</title>
+</head>
+<body>
+    <h2>JavaScript Prompt Box</h2>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script>
+function myFunction() {
+    var txt;
+    var person = prompt("Please enter number:", person);
+    if((person>30) || (person<1) || isNaN(person))
+    {
+        alert("Enter invalid data");
+    }
+    else{
+   
+    for(var count=1; count<=person; count++){
+       var a= document.getElementById("demo1");
+        a.innerHTML += "*";
+    }
+    }
+    var person = prompt("Please enter number:", person);
+    if(person>30 || person<1 || isNaN(person))
+    {
+        alert("Enter invalid data");
+    }
+    else{
+   
+    for(var count=1; count<=person; count++){
+       var a= document.getElementById("demo2");
+        a.innerHTML += "*";
+    }
+    }
+    var person = prompt("Please enter number:", person);
+    if(person>30 || person<1 || isNaN(person))
+    {
+        alert("Enter invalid data");
+    }
+    else{
+    
+    for(var count=1; count<=person; count++){
+       var a= document.getElementById("demo3");
+        a.innerHTML += "*";
+    }
+    }
+}
+    
+   
+   
+
+</script>
+</body>
+</html>
+
