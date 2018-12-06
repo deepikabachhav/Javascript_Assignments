@@ -6,7 +6,7 @@ print=function()    //create object using global print method.
     console.log(Person1);
 }
 
-var Person= {fname:"Deepika",
+var Person= {fname:"Deepika",    //create object using object literal.
             lname:"Bachhav",
             age: 22,
             skills:["Acting", 'Singing', "Dancing", "Treking"],
@@ -19,7 +19,7 @@ var Person= {fname:"Deepika",
                     }
             }
         
-var Person1= {fname:"Amitabh",
+var Person1= {fname:"Amitabh",       //craete second object using objet literal.
             lname:"Bachchan",
             age:70,
             skills:["Acting", "Singing", "Dancing", "Treking"],

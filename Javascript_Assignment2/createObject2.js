@@ -1,6 +1,6 @@
 /* modified the object by using Object.create() method*/
 
-var amitabh={fname:"amitabh", 
+var amitabh={fname:"amitabh",    //create object amitabh by using object litetal.
             lname:"Bachchan",
             age:70,
             skills:["Acting","Dancing","singing"],
@@ -14,11 +14,11 @@ abhishek.fname="abhishek";
 abhishek.age=34;
 abhishek.dateOfBirth=new Date("1992-06-05");
 console.log(amitabh);
-console.log(abhishek.fname);
-console.log(abhishek.lname);
-console.log(abhishek.age);
-console.log(abhishek.skills);
-console.log(abhishek.dateOfBirth);
-console.log(abhishek.married);
-console.log(abhishek.profession);
-console.log(abhishek.Address);
+console.log("fname:"+abhishek.fname);
+console.log("lname:"+abhishek.lname);
+console.log("age:"+abhishek.age);
+console.log("skills:"+abhishek.skills);
+console.log("dateOfBirth:"+abhishek.dateOfBirth);
+console.log("married:"+abhishek.married);
+console.log("profession:"+abhishek.profession);
+console.log("Address:"+abhishek.Address);
